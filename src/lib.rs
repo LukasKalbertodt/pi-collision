@@ -106,7 +106,8 @@ impl Collisions {
 
         writeln!(
             w,
-            r#"<svg width="{}" height="{}" version="1.1" xmlns="http://www.w3.org/2000/svg">"#,
+            // r#"<svg width="{}" height="{}" version="1.1" xmlns="http://www.w3.org/2000/svg">"#,
+            r#"<svg viewBox="0 0 {} {}" version="1.1" xmlns="http://www.w3.org/2000/svg">"#,
             size,
             size,
         )?;
